@@ -2,7 +2,7 @@ package challenge2onebucket;
 
 import java.util.Random;
 
-import challenge2onebucket.src.challenge2onebucket.util.HashTable;
+import challenge2onebucket.util.HashTable;
 //import gov.nasa.jpf.symbc.Debug;
 
 public class TestApp {
