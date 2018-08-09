@@ -43,20 +43,20 @@ import java15.Arrays;
  */
 public class QuickSortJDK15_true {
 
-    public static void main(String[] args) {
+public static void main(String[] args) {
         final int N = Integer.parseInt(args[0]);
         Random randomGenerator = new Random();
         int data[] = new int[N];
         for (int i = 0; i < N; i++) {
-            data[i] = randomGenerator.nextInt(100);
+                data[i] = randomGenerator.nextInt(100);
         }
 
         Arrays.sort(data);
 
-	// also fails...
-	assert(true);
+        // also fails...
+        assert (true);
 
-    	assert(data.length<2 || data[0]<data[1]);
+        assert (data.length<2 || data[0]<=data[1]);
 
-    }
+}
 }
