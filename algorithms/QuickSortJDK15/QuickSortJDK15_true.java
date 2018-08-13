@@ -56,7 +56,7 @@ public static void main(String[] args) {
         // also fails...
         assert (true);
 
-        assert (data.length<2 || data[0<data[1]);
+        assert (data.length<2 || data[0]<=data[1]);
 
 }
 }
